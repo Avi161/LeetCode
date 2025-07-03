@@ -20,7 +20,7 @@ class Solution:
                 return 
         dfs(root)
         return self.isSame
-
+    
     
     def sameTree(self, tree1, tree2):
         if not tree1 and not tree2:
